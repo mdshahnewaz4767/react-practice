@@ -1,0 +1,33 @@
+.friend-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.friend-image img{
+    margin-right: 10px;
+    width: 250px;
+    border-radius: 6px;
+}
+.friends{
+    display: flex;
+    border-bottom: 2px solid salmon;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin: 20px;
+}
+.friend-description span{
+    color: rgb(59, 59, 59);
+}
+.friend-description button{
+    height: 30px;
+    width: 132px;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.btn-info{
+    display: inline;
+}
